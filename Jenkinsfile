@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Deploy - QA') {
             steps {
-               echo ‘QA’
+               echo 'QA'
                 input "Does the staging environment look ok?"
             }
         }
@@ -20,4 +20,6 @@ pipeline {
         }
     }
 }
+
+
 
