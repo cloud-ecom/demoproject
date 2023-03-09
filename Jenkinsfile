@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         /* "Build" and "Test" stages omitted */
-        stage('Deploy - Dev’) {
+        stage('Deploy - Dev') {
             steps {
                 echo 'hello' 
             }
@@ -20,3 +20,4 @@ pipeline {
         }
     }
 }
+
